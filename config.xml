@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>testlegacyurl</name>
+	<displayName><![CDATA[Test legacy url]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[This module is used to test legacy urls as they are migrated to Symfony.
+It displays two lists of links:
+- a list of legacy links you can click on to check if they are correctly redirected
+- a list of links generated with le legacy Link class and are supposed to be formatted as new Symfony urls
+]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
